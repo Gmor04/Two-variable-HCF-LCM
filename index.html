@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrenchesHCF&LCM</title>
+</head>
+<style>
+    .motherdiv{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        width: 40%;
+        height: 70vh;
+        border: 1px solid wheat;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px blue;
+    }
+    .hcf{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: blue;
+        font-family: monospace;
+        margin-top: 4%;
+    }
+    .inputdiv{
+        width: 90%;
+        /* height: 6vh; */
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 1px solid black; */
+        margin-top: 2%;
+    }
+    .vvalu{
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        color: blue;
+    }
+    #input{
+        width: 100%;
+        height: 5vh;
+        border: 1px solid blue;
+        outline: none;
+        border-radius: 10px;
+        font-size: 20px;
+        color: blue;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+
+
+    }
+    .butdiv{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+    }
+    .suum{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: blue;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+        font-family: monospace;
+        box-shadow: 2px 2px 3px blue;
+        
+    }
+    .Answer{
+        width: 90%;
+        height: 10vh;
+        /* border: 1px solid blue; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        border-radius: 15px;
+        text-align: center;
+        color: blue;
+        /* font-size: 20px; */
+        font-family: monospace;
+        font-style: italic;
+        font-weight: 600;
+    }
+    /* .mov{
+        font-size: 20px;
+        font-family: monospace;
+        font-weight: 500;
+        font-style: italic;
+        color: blue;
+        margin-top: 5%;
+
+    } */
+    .move{ text-align: center;
+    font-size: 10px;
+    font-family: monospace;
+    font-weight: 500;
+    font-style: italic;
+    color: blue;
+    margin-top: 5%;
+
+}
+    @media (max-width:450px) {
+        .main{
+        width: 90%;
+        height: 50vh;
+        border: 1px solid wheat;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px blue;
+    }
+    }
+</style>
+<body>
+    <main class="motherdiv">
+        <div class="main">
+            <div class="hcf">H.C.F & L.C.M </div>
+            <div class="inputdiv">
+                <div class="vvalu">First variable</div>
+                <input type="number" id="input" class="input1">
+            </div>
+            <div class="inputdiv">
+                <div class="vvalu">Second variable</div>
+                <input type="number" id="input" class="input2">
+            </div>
+            <div class="butdiv">
+                <button onclick="submit()" class="suum">ANSWER</button>
+            </div>
+
+            <div class="Answer"></div>
+
+            <!-- <marquee behavior="" direction="" class="mov">GMOR😍</marquee> -->
+            <div class="move">Dev_by_GMOR😍</div>
+            
+        </div>
+    </main>
+</body>
+</html>
+<script src="hcf&lcm.js"></script>
